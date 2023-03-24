@@ -22,7 +22,7 @@ const getMainInfo = `
 
 export const getPersonInfo = gql`
 query MyQuery {
-  mainInfo(where: {id: "clf0p0xk31tca0a1213fm7544"}) {
+  mainInfo(where: {id: "clfl8474h046q0bzlgm7xek2h"}) {
     ${getMainInfo}
     personInfo {
       textDatas {
@@ -41,7 +41,7 @@ query MyQuery {
 
 export const getSkill = gql`
 query MainInfos {
-  mainInfo(where: {id: "clf0p0xk31tca0a1213fm7544"}) {
+  mainInfo(where: {id: "clfl8474h046q0bzlgm7xek2h"}) {
     ${getMainInfo}
     skills {
       id
@@ -59,7 +59,7 @@ query MainInfos {
 
 export const getWorkExperience = gql`
 query MainInfos {
-  mainInfo(where: {id: "clf0p0xk31tca0a1213fm7544"}) {
+  mainInfo(where: {id: "clfl8474h046q0bzlgm7xek2h"}) {
     ${getMainInfo}
     workExperiences(orderBy: endTime_DESC) {
       id
@@ -86,7 +86,7 @@ query MainInfos {
 
 export const getEducation = gql`
 query MainInfos {
-  mainInfo(where: {id: "clf0p0xk31tca0a1213fm7544"}) {
+  mainInfo(where: {id: "clfl8474h046q0bzlgm7xek2h"}) {
     ${getMainInfo}
     educations(orderBy: endTime_DESC) {
       id
@@ -103,7 +103,7 @@ query MainInfos {
 
 export const getGuessbook = gql`
 query MainInfos {
-  mainInfo(where: {id: "clf0p0xk31tca0a1213fm7544"}) {
+  mainInfo(where: {id: "clfl8474h046q0bzlgm7xek2h"}) {
     ${getMainInfo}
   }
   guessBooks(orderBy: publishedAt_DESC) {
@@ -138,7 +138,7 @@ mutation PublishGuessBook ($id: ID!)  {
 
 export const getProject = gql`
 query MainInfos {
-  mainInfo(where: {id: "clf0p0xk31tca0a1213fm7544"}) {
+  mainInfo(where: {id: "clfl8474h046q0bzlgm7xek2h"}) {
     ${getMainInfo}
     projects {
       description

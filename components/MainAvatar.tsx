@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import { CommandLineIcon, CodeBracketIcon } from '@heroicons/react/24/outline';
 
-import avatarImg from '../public/avatarImg.png';
+import avatarImg from '../public/avatarImg.jpg';
 import Link from 'next/link';
 import { useContext, useEffect, useState } from 'react';
 
@@ -88,11 +88,11 @@ const Mainavatar = () => {
           className="big-btn group/action"
         >
           <CommandLineIcon className="w-8 h-8" />
-          <span className="group-hover/action:text-white">Linkedin</span>
+          <span className="group-hover/action:text-white">Github</span>
         </Link>
         <Link
           target="_blank"
-          href={'https://github.com/edward32tnt/portfolio'}
+          href={'https://github.com/Etuloser/portfolio'}
           className="big-btn group/action"
         >
           <CodeBracketIcon className="w-8 h-8" />
